@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    height : 20vh;
+    width : 15vw;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-image : url("../assets/card_background.jpg");
+    background-size: 15vw 20vh;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:nth-child(3n) {
+    color:rgb(233, 10, 10);
+    opacity: 70%;
+    border-color: rgb(47, 11, 131);
+}

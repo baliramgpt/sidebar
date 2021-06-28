@@ -1,0 +1,13 @@
+.home{
+    font-size: 5vmin;
+    margin: 1vh 6vw;
+  }
+
+  .search{
+      border: 2px solid black;
+      height: 5vh;
+      width: 20vw;
+      margin: 1vh 1vw;
+      padding: .5rem;
+      border-radius: 10px;
+  }
